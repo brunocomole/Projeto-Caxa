@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Caxa</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="cliqueNaMascara()"></div>
+
+    <div class="header">
+        <img src="./img/Caxa_36_6.png" alt="logo caxa">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a onclick="cliqueiNoBotao()">Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/Ativo 47.png" alt="logo do caxa" class="imagem-caxa">
+            <p>Bruno, apaixonado por tecnologia desde criança, tornou-se programador profissional aos 34 anos.</p>
+            <p>Especializado em desenvolvimento web, ele está sempre em busca de novos desafios e soluções inovadoras.
+                 Além de ser um mestre em códigos, 
+                Bruno adora café, música eletrônica e games. Seja bem-vindo ao mundo do Bruno Programador. 🖥💻🚀</p>
+
+            <button onclick="cliqueiNoBotao()">Entre em contato</button>
+        </div>
+        <div>
+            <img src="./img/bruhqt.jpg" alt="logo cx" class="logo-bruh">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/Background_Caxa.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    
+    <a href="https://api.whatsapp.com/send?phone=5511989851714" target="_blank" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/BOJEr0PoQbl" method="POST"
+        enctype="multipart/form-data">
+         <input placeholder="Seu nome" type="text" name="nome">
+         <input placeholder="Seu telefone" type="tel" name="telefone">
+         <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+         <button type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+<script src="scripts.js"></script>
+</html>
